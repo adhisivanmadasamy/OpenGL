@@ -134,6 +134,8 @@ int main(void)
         std::cout << glGetString(GL_VERSION) << std::endl;
     }
 
+
+    //Make a square now
     float positions[6] = {
         -0.5f, -0.5f,
         0.0f, 0.5f,
