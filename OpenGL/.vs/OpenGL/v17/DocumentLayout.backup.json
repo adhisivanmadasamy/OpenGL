@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VisualStudioProjects\\OpenGL\\OpenGL\\",
+  "WorkspaceRootPath": "D:\\Visual Studio Projects\\OpenGL\\OpenGL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D9B0B8E-FCFE-40E2-A0F0-B1AC31690FC1}|OpenGL\\OpenGL.vcxproj|D:\\VisualStudioProjects\\OpenGL\\OpenGL\\OpenGL\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7D9B0B8E-FCFE-40E2-A0F0-B1AC31690FC1}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7D9B0B8E-FCFE-40E2-A0F0-B1AC31690FC1}|OpenGL\\OpenGL.vcxproj|D:\\Visual Studio Projects\\OpenGL\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7D9B0B8E-FCFE-40E2-A0F0-B1AC31690FC1}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VisualStudioProjects\\OpenGL\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{7D9B0B8E-FCFE-40E2-A0F0-B1AC31690FC1}|OpenGL\\OpenGL.vcxproj|D:\\Visual Studio Projects\\OpenGL\\OpenGL\\OpenGL\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7D9B0B8E-FCFE-40E2-A0F0-B1AC31690FC1}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Basic.shader",
-              "DocumentMoniker": "D:\\VisualStudioProjects\\OpenGL\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\OpenGL\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader",
               "RelativeDocumentMoniker": "OpenGL\\res\\shaders\\Basic.shader",
-              "ToolTip": "D:\\VisualStudioProjects\\OpenGL\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader",
+              "ToolTip": "D:\\Visual Studio Projects\\OpenGL\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader",
               "RelativeToolTip": "OpenGL\\res\\shaders\\Basic.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-29T11:59:55.81Z"
+              "WhenOpened": "2024-11-29T11:59:55.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\VisualStudioProjects\\OpenGL\\OpenGL\\OpenGL\\src\\main.cpp",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\OpenGL\\OpenGL\\OpenGL\\src\\main.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\main.cpp",
-              "ToolTip": "D:\\VisualStudioProjects\\OpenGL\\OpenGL\\OpenGL\\src\\main.cpp",
+              "ToolTip": "D:\\Visual Studio Projects\\OpenGL\\OpenGL\\OpenGL\\src\\main.cpp",
               "RelativeToolTip": "OpenGL\\src\\main.cpp",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-27T11:23:05.709Z",
               "EditorCaption": ""

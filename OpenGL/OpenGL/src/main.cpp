@@ -136,10 +136,20 @@ int main(void)
 
 
     //Make a square now
-    float positions[6] = {
-        -0.5f, -0.5f,
-        0.0f, 0.5f,
-        0.5f, -0.5f
+    //1. Make Right angle
+    //2. Draw 2 tri
+    //3. Implement index buffer
+
+    float positions[8] = {
+        -0.5f, -0.5f,   //0
+        0.5f, -0.5f,    //1
+        0.5f, 0.5f,     //2
+        -0.5f, 0.5f     //3
+    };
+
+    unsigned int indices[]{
+        0,1,2,
+        0,2,3
     };
 
 
@@ -147,10 +157,15 @@ int main(void)
     unsigned int buffer;    
     glGenBuffers(1, &buffer);   //Creating buffer object
     glBindBuffer(GL_ARRAY_BUFFER, buffer);  //Binding the buffer obj to a target, target is GL_ARRAY_BUFFER    
-    glBufferData(GL_ARRAY_BUFFER, 6 * sizeof(float), positions, GL_STATIC_DRAW);    //Adding data to the buffer
+    glBufferData(GL_ARRAY_BUFFER, 6 *2 * sizeof(float), positions, GL_STATIC_DRAW);    //Adding data to the buffer
     
     glEnableVertexAttribArray(0);   //Activates the Vertex attribute array in the specific index
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, 0);  //Specifying the format of the data - Vertex Attribute
+
+    unsigned int ibo; //index buffer object
+    glGenBuffers(1, &ibo);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 * sizeof(unsigned int), indices, GL_STATIC_DRAW);
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);   //unbinding the buffer so it's not modified in future
 
@@ -182,8 +197,11 @@ int main(void)
         glEnd();*/
 
 
-        //Drawing using modern OpenGL
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        ////Drawing using modern OpenGL - Before index buffer
+        //glDrawArrays(GL_TRIANGLES, 0, 6);
+
+        //Drawing 2 triangles with index buffer
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);

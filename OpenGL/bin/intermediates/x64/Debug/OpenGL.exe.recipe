@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\VisualStudioProjects\OpenGL\OpenGL\bin\x64\Debug\OpenGL.exe</FullPath>
+      <FullPath>D:\Visual Studio Projects\OpenGL\OpenGL\bin\x64\Debug\OpenGL.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
